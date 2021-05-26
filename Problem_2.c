@@ -7,12 +7,18 @@
 #include<stdio.h>
 int main()
 {
-    int n;
+    int n,i,n1=0,n2=1,n3=0;
     printf("Enter the value for n\n");
     scanf("%d", &n);
 
     //Write your code here
-    
+    for(i=1;i<=n;i++)
+    {
+      printf("%d ",n1);
+      n3=n1+n2;
+      n1=n2;
+      n2=n3;
+    }
 
     return 0;
 }
